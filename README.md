@@ -2,7 +2,7 @@
 Hangfire创建任务时，可以指定队列名称
 
 Startup.cs
-```
+```cs
 public void ConfigureServices(IServiceCollection services)
 {
     // ...
@@ -27,7 +27,7 @@ public void ConfigureServices(IServiceCollection services)
 ```
 
 Crete Job
-```
+```cs
 using Hangfire;
 using Hangfire.SpecifyQueue;
 
